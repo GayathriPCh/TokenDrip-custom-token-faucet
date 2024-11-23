@@ -1,0 +1,190 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+@font-face {
+  font-family: 'SpButch';
+  src: url('./SpButchLiteBold-8O88B.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Squidgame';
+  src: url('./GameOfSquids-1GMVL.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Gameoutline';
+  src: url('./GamePlayedOutline-wrX8.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Game';
+  src: url('./GamePlayed-vYL7.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Battles';
+  src: url('./GameBattlesRegular-RjXo.ttf') format('truetype');
+}
+.App {
+  min-height: 100vh; /* Ensures full height of viewport */
+  background: linear-gradient(135deg, #0A0A0A 0%, #111815 100%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px; /* Sets max-width to a reasonable value */
+  padding: 40px 0;
+  margin: 0 auto;
+}
+
+.hero-section {
+  text-align: center;
+
+  width: 100%;
+    max-width: 100%;
+    padding: 80px 40px;
+    margin: 0 40px;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #00FFA3 0%, #00CC82 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 24px;
+  font-family: 'Battles', sans-serif;
+
+}
+
+.subtitle {
+  font-family: 'Squidgame', sans-serif;
+
+  font-size: 1.8rem;
+  color: #9CA3AF;
+  margin-bottom: 64px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.feature-card {
+  margin-right: 8px;
+  background: rgba(0, 255, 163, 0.05);
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid rgba(0, 255, 163, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.feature-card:hover {
+  background: rgba(0, 255, 163, 0.08);
+  transform: translateY(-4px);
+}
+
+.feature-card h3 {
+  color: #00FFA3;
+  font-family: 'Game', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.feature-card p {
+  color: #9CA3AF;
+  line-height: 1.6;
+  font-family: 'Game', sans-serif;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .features {
+      grid-template-columns: 1fr;
+  }
+  
+  .title {
+      font-size: 3rem;
+  }
+  
+  .subtitle {
+      font-size: 1.4rem;
+  }
+}
+.section-wrapper {
+  width: calc(100% - 80px); /* Full width minus margins */
+    margin: 40px 40px;
+    margin-left: 30px;
+}
+
+.section-intro {
+  background: rgba(0, 255, 163, 0.02);
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(0, 255, 163, 0.1);
+}
+
+.section-intro h2 {
+  color: #00FFA3;
+  font-size: 2rem;
+  margin-bottom: 16px;
+  font-family: 'Game', sans-serif;
+}
+
+.section-intro p {
+  font-family: 'SpButch', sans-serif;
+  color: #ffffff;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.steps, .admin-guide {
+  margin-top: 24px;
+  padding: 20px;
+  background: rgba(0, 255, 163, 0.05);
+  border-radius: 8px;
+}
+
+.steps p, .admin-guide p {
+  font-family: 'SpButch', sans-serif;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.admin-guide p {
+  color: #ffffff;
+}
+/* App.css */
+.container {
+  width: 100%;
+  max-width: 1400px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+
+.section-wrapper,
+.admin-panel,
+.token-list,
+.claim-section {
+  width: 100%;
+  margin: 0 0 40px 0;
+  padding: 32px;
+  background: rgba(0, 255, 163, 0.02);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 255, 163, 0.1);
+}
