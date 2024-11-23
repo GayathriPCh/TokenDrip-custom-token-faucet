@@ -72,8 +72,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License.
-
-Citations:
-[1] https://pplx-res.cloudinary.com/image/upload/v1732354423/user_uploads/vofwsuvzi/image.jpg
-[2] https://pplx-res.cloudinary.com/image/upload/v1732357329/user_uploads/nvszvtiil/image.jpg
-[3] https://pplx-res.cloudinary.com/image/upload/v1732358032/user_uploads/pndaxqzcu/image.jpg
