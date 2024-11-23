@@ -1,5 +1,6 @@
 # TokenDrip 💧  
 **The Ultimate Multi-Token Faucet for Web3 Developers**
+![image](https://github.com/user-attachments/assets/a608c8af-0ea9-469b-941a-3da1599ab1df)
 
 ## Overview
 
@@ -77,12 +78,16 @@ This unique feature set makes TokenDrip a truly **out-of-the-box** solution for 
 
 ### **Claiming Tokens**
 1. Browse the list of available **testnet tokens**.
-2. Copy the contract address of the token you wish to claim.
-3. Paste the token address in the claim section.
-4. Click "Claim" and confirm the transaction in your wallet.
-5. Respect the cooldown period (if any) before claiming again.
+2. ![image](https://github.com/user-attachments/assets/4b4fece4-ebd9-429f-b328-0f8a88e16d48)
+
+3. Copy the contract address of the token you wish to claim.
+4. Paste the token address in the claim section.
+5. Click "Claim" and confirm the transaction in your wallet.
+6. Respect the cooldown period (if any) before claiming again.
+![image](https://github.com/user-attachments/assets/19719866-4f6d-4c63-82e9-dfd113d901ef)
 
 ### **For Administrators**
+![image](https://github.com/user-attachments/assets/3a33fbed-f7a0-430b-8892-33152f2d0133)
 
 #### **Adding New Tokens**
 1. Navigate to the Admin Panel.
