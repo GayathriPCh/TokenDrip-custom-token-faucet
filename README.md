@@ -64,7 +64,7 @@ Traditional faucets are great for single-token ecosystems, but they fall short f
 - **Built with**:  
   - **Frontend**: React, Ethers.js  
   - **Backend/Smart Contracts**: Solidity  
-  - **Blockchain Network**: Ethereum (Testnet)  
+  - **Blockchain Network**: Ethereum Sepolia (Testnet)  
 - **Key Features**: Multi-token support, customizable claim limits, configurable cooldown periods, decentralized faucet management.
 
 ## Why TokenDrip Is a Game-Changer
